@@ -2,8 +2,10 @@
   "name": "itzjustalan",
   "version": "0.0.1",
   "scripts": {
-    "dev": "svelte-kit dev",
+    "dev": "svelte-kit dev --port 4444",
     "build": "svelte-kit build",
+    "stg": "vite build --mode staging",
+    "prod": "vite build --mode production",
     "package": "svelte-kit package",
     "preview": "svelte-kit preview",
     "test": "playwright test",
@@ -34,6 +36,11 @@
   "dependencies": {
     "@fontsource/fira-mono": "^4.5.0",
     "@lukeed/uuid": "^2.0.0",
-    "cookie": "^0.4.1"
+    "bcryptjs": "^2.4.3",
+    "cookie": "^0.4.1",
+    "dotenv": "^16.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.4.0",
+    "mongoose": "^6.2.4"
   }
 }

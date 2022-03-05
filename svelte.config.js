@@ -7,6 +7,9 @@ const config = {
 	// for more information about preprocessors
 	preprocess: preprocess(),
 
+  // an array of file extensions that should be treated as Svelte components
+  // extensions: ['.svelte', '.sv', 'html', 'htm'],
+
 	kit: {
 		adapter: adapter(),
 
